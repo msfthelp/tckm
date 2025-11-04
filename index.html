@@ -1,284 +1,83 @@
-<!doctype html>
-<html lang="en" data-bs-theme="auto">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta
-      name="author"
-      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
-    />
-    <meta name="generator" content="Astro v5.13.2" />
-    <title>Headers · Bootstrap v5.3</title>
-    <link
-      rel="canonical"
-      href="https://getbootstrap.com/docs/5.3/examples/headers/"
-    />
-    <script src="../assets/js/color-modes.js"></script>
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
-	    <link href="custom_style.css" rel="stylesheet" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event Assistance | Booking & Account Support Helpline</title>
+  <meta name="description" content="Need help with event booking or account login? Contact our Event Assistance Helpline at 1-833-297-6290 for quick guidance.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f9fb;
+      color: #222;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 20px 10px;
+    }
+    h1 {
+      font-size: 26px;
+      margin: 10px 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    .call-btn {
+      display: inline-block;
+      background: #0078d7;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 5px;
+      font-size: 18px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+    .call-btn:hover {
+      background: #005fa3;
+    }
+    p {
+      line-height: 1.6;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Event Assistance Helpline</h1>
+    <p>Independent Customer Support for Booking & Account Queries</p>
+  </header>
 
-    <meta name="theme-color" content="#712cf9" />
-    <link href="headers.css" rel="stylesheet" />
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: #0000001a;
-        border: solid rgba(0, 0, 0, 0.15);
-        border-width: 1px 0;
-        box-shadow:
-          inset 0 0.5em 1.5em #0000001a,
-          inset 0 0.125em 0.5em #00000026;
-      }
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-      .bi {
-        vertical-align: -0.125em;
-        fill: currentColor;
-      }
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-      .bd-mode-toggle .bi {
-        width: 1em;
-        height: 1em;
-      }
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }
-    </style>
-  </head>
-  <body>
-    
-   
-    <main>
-      <h1 class="visually-hidden">Headers examples</h1>
+  <div class="container">
+    <h2>Need Help with Your Event or Account?</h2>
+    <p>Having trouble with booking confirmation, account access, or order help?  
+    Our support agents can guide you through the process.</p>
+    <p>We assist users with:</p>
+    <ul style="text-align:left; max-width:500px; margin:10px auto;">
+      <li>Booking assistance</li>
+      <li>Order and confirmation queries</li>
+      <li>Refund and cancellation guidance</li>
+      <li>Login and account support</li>
+    </ul>
 
-      <div class="b-example-divider"></div>
-      <header class="p-3 text-bg-dark">
-        <div class="container">
-          <div
-            class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
-          >
-            <a
-              href="/"
-              class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
-            >
-              <svg
-                class="bi me-2"
-                width="40"
-                height="32"
-                role="img"
-                aria-label="Bootstrap"
-              >
-                <use xlink:href="#bootstrap"></use>
-              </svg>
-            </a>
-            <ul
-              class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
-            >
-              <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
-              <li><a href="about-us.html" class="nav-link px-2 text-white">About us</a></li>
-              <li><a href="contact-us.html" class="nav-link px-2 text-white">Contact us</a></li>
-              <li><a href="Privacy-policy.html" class="nav-link px-2 text-white">Privacy Policy</a></li>
-            </ul>
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-              <input
-                type="search"
-                class="form-control form-control-dark text-bg-dark"
-                placeholder="Search..."
-                aria-label="Search"
-              />
-            </form>
-            <div class="text-end">
-              <button type="button" class="btn btn-outline-light me-2">
-                Login
-              </button>
-              <button type="button" class="btn btn-warning">Sign-up</button>
-            </div>
-          </div>
-        </div>
-      </header>
-<div class="px-10 text-center bannerbg">
-       
-        <h2 class="display-5 fw-bold text-body-emphasis">HOT YOGA ESSENTIALS<h2>
- <h1 class="display-5 fw-bold text-body-emphasis">Built For Heat
+    <a href="tel:+18332976290" class="call-btn">📞 Call Now: 1-833-297-6290</a>
+  </div>
 
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">
-           Stay sweat-ready with the best hot yoga towels, mats, and gear for high-heat, high-energy classes.</h1>
-
-          </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
-              Shop Hot Yoga
-            </button>
-           
-        </div>
-      </div>
-    
-	<div class="container px-4 py-5" id="featured-3">
-        <h2 class="pb-2 border-bottom">Shop By Category</h2>
-        <div class="row g-3 py-5 row-cols-1 row-cols-lg-4">
-          <div class="feature col">
-            <div class="feature-icon">
-              <img src="category1.jpeg">
-            </div>
-          
-            <a href="#" class="icon-link"> hot yoga towels     </a>
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <img src="categoru2.webp">
-            </div>
-          
-            <a href="#" class="icon-link"> yoga Mats  </a>
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <img src="category3.jpg">
-            </div>
-          
-            <a href="#" class="icon-link">  props & accessories     </a>
-          </div>
-		  <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <img src="category4.webp">
-            </div>
-          
-            <a href="#" class="icon-link">Mats    </a>
-          </div>
-        </div>
-      </div>
-	  
-	  <div class="px-4 text-center yoga_guide">
-       
-        <h2 class="display-5 fw-bold">Your Guide To Hot Yoga Towels<h2>
-
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Built for heated classes, our hot yoga towels deliver moisture-activated grip, high absorbency, and steady support. </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Read Now
-            </button>
-           
-        </div>
-      </div>
-    
-	</div>
-	
-	<div class="container px-4 py-5" id="featured-3">
-        <h2 class="pb-2 border-bottom">Shop By Category</h2>
-        <div class="row g-3 py-5 row-cols-1 row-cols-lg-2">
-          <div class="feature col featuresimg">
-            <div class="feature-icon">
-             <h1>Studio Spotlight</h1>
-<h2>Sweat Yoga: Los Angeles, CA<h2>
-            </div>
-          
-            <a href="#" class="icon-link"> Explore Now    </a>
-          </div>
-          <div class="feature col featuresimg2">
-            <div class="feature-icon">
-             <h1>Why Hot Yoga Works</h1>
-<h2>Sweat Yoga: Los Angeles, CA<h2>
-            </div>
-          
-            <a href="#" class="icon-link"> Read Now    </a>
-          </div>
-        </div>
-      </div>
-	  
-	  <div class="px-4 py-5 my-5 text-center unwasted">
-       
-        <h2 class="display-5 fw-bold text-body-emphasis">The Unwasted™ Approach<h2>
-
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">A commitment to lasting performance, nothing unwasted. </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
-              Primary button
-            </button>
-           
-        </div>
-      </div>
-    
-	</div>
-	
-	 <div class="px-4 py-5 my-5 text-center bannerbg_bottom">
-       
-        <h2 class="display-5 fw-bold text-body-emphasis">Experience Manduka<h2>
-
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Visit one of our local studios and try out some Manduka products for yourself. </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
-              Primary button
-            </button>
-           
-        </div>
-      </div>
-    
-	</div>
-	 </div>
-	  </div>
-	<div class="container-fluid footerbg" id="featured-3">
-       
-        <div class="row row-cols-1 row-cols-lg-12 text-center">
-           <p>Copyright © 2025 Prim Web designer. All Rights Reserved. </h2>
-         
-        </div>
-      </div>
-    </main>
-    <script
-      src="../assets/dist/js/bootstrap.bundle.min.js"
-      class="astro-vvvwv3sm"
-    ></script>
-  </body>
+  <footer>
+    <p><strong>Disclaimer:</strong> We are an independent customer support service and not affiliated with any official event or ticketing company.  
+    For official services, please visit the respective company’s website.</p>
+  </footer>
+</body>
 </html>
